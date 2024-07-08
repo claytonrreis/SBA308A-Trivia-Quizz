@@ -8,9 +8,8 @@ const _checkBtn = document.getElementById("checkSubmit");
 const _playAgainBTN = document.getElementById("playAgain");
 const _result = document.getElementById("result");
 
-let correctAnswer = "",
-  correctScore = (askedCount = 0),
-  totalQuestion = 12;
+let correctAnswer = "";
+(correctScore = askedCount = 0), (totalQuestion = 12);
 
 function eventHandler() {
   _checkBtn.addEventListener("click", checkAnswer);
@@ -55,7 +54,7 @@ function showQuestion(data) {
     .map((option, index) => `<li>${index + 1}. <span> ${option} </span> </li>`)
     .join("")}`;
 
-  console.log(_options.innerHTML);
+  // console.log(_options.innerHTML);
 
   selectOption();
 }
@@ -70,7 +69,7 @@ function selectOption() {
       option.classList.add("selected");
     });
   });
-  console.log(correctAnswer);
+  // console.log(correctAnswer);
 }
 
 function checkAnswer() {
@@ -108,7 +107,7 @@ function checkCount() {
   } else {
     setTimeout(() => {
       loadQuestios();
-    }, 500);
+    }, 1500);
   }
 }
 
