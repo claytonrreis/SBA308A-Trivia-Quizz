@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Trivia Quizz</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="quizbox">
+        <div class="headbox">
+          <h1 class="titlequiz">Trivia Quizz</h1>
+          <div class="triviaScore">
+            <span id="corrects">0</span>/<span id="numQuestions">12</span>
+          </div>
+        </div>
+        <div class="bodybox">
+          <h2 class="question" id="question">
+            <!-- What bla bla bla? <br />
+            <span class="category">Bla</span> -->
+          </h2>
+          <ul class="options">
+            <!-- <li>A. blabla</li>
+            <li>B. blablabla</li>
+            <li>C. blablablabla</li>
+            <li>D. blablablablabla</li> -->
+          </ul>
+          <div id="result"></div>
+          <div class="footbox">
+            <button type="button" id="checkSubmit">CHECK ANSWER</button
+            ><button type="button" id="playAgain">PLAY AGAIN</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
