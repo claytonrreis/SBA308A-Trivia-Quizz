@@ -34,4 +34,6 @@ The code utilizes the fetch API for asynchronous communication with the external
 
 Feel free to contribute or modify the code to enhance the functionalities of the quiz application!
 
+Link: https://claytonrreis.github.io/SBA308A-Trivia-Quizz/
+
 HAVE FUN!!!
